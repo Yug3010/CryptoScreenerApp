@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start */
+    height: 100vh; /* Full viewport height */
+    background-color: black; /* Match the global background color */
+    color: white; /* Ensure text color is white */
+    overflow: auto; /* Allow scrolling if content is too tall */
+}
+
+.hero {
+    text-align: center;
+    padding: 20px; /* Add some padding around the hero section */
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Large heading */
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #007BFF; /* Primary color for emphasis */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ccc; /* Slightly lighter color for subtext */
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; /* Add some space below the form */
+}
+
+.search-form input[type="text"] {
+    padding: 10px 20px;
+    border: 1px solid #555;
+    border-radius: 5px 0 0 5px;
+    background-color: #333; /* Match the navbar and overall theme */
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling for tables */
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%; /* Reduce the width of the table */
+    color: white; /* Ensure text color is white */
+}
+
+table th, table td {
+    padding: 10px 15px; /* Reduce the padding for a more compact table */
+    border: 1px solid #555;
+    text-align: center;
+}
+
+table th {
+    background-color: #333; /* Match the overall theme */
+    color: #007BFF; /* Primary color for emphasis */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #222; /* Alternate row background color */
+}
+
+table tr:hover {
+    background-color: #444; /* Row highlight on hover */
+}
+
+
+
+/* Additional Styles */
+.coin-image {
+    margin-right: 5px;
+    display: block;
+    margin: auto;
+}
+
+.coin-link { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.coin-link p{
+    margin-top: 13px;
+    margin-left: -60px;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}

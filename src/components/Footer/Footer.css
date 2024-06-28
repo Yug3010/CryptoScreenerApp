@@ -1,0 +1,11 @@
+/* Footer.css */
+
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333; /* Match the overall theme */
+    color: #007BFF; /* Primary color for emphasis */
+    font-size: 1rem;
+    margin-top: auto; /* Push footer to the bottom */
+}

@@ -1,0 +1,92 @@
+/* Navbar.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: black; /* Ensure the background color is black */
+    color: white; /* Ensure the text color is white */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black; /* Match the global background color */
+    border-bottom: 1px solid #333; /* Subtle border at the bottom */
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white; /* Ensure text color is white */
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li:hover {
+    color: #007BFF; /* Highlight color on hover */
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-right select {
+    margin-right: 15px;
+    padding: 5px 10px;
+    border: 1px solid #555; /* Darker border */
+    border-radius: 5px;
+    background-color: black; /* Match the global background */
+    color: white; /* Ensure text color is white */
+    font-size: 16px;
+  }
+  
+  .nav-right button {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-right button img {
+    height: 15px;
+    margin-left: 5px;
+  }
+  
+  .nav-right button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for better appearance */
+  .navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .nav-right select:focus,
+  .nav-right button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
