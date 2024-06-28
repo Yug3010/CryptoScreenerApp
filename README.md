@@ -54,3 +54,12 @@ To run this project locally, follow these steps:
 
 ## **API Key**
 The app uses a demo API key provided by CoinGecko. For production use, you may need to obtain your own API key from [CoinGecko](https://www.coingecko.com/en/api) and replace the existing key in the fetch requests.
+
+![image](https://github.com/Yug3010/CryptoScreenerApp/assets/76808047/b794d291-bb07-438f-8364-bea453729ad8)
+![image](https://github.com/Yug3010/CryptoScreenerApp/assets/76808047/9573e89b-522a-4abf-8d6e-aac3573bd77a)
+![image](https://github.com/Yug3010/CryptoScreenerApp/assets/76808047/e2306ca7-ac7f-4d32-a95e-6aff1c6a6b9d)
+![image](https://github.com/Yug3010/CryptoScreenerApp/assets/76808047/ac7cc339-4e2c-44ac-8723-8e8b3d85e1e8)
+
+
+
+
