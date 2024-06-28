@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 
 2. **Navigate to the project directory**:
     ```sh
-    cd cryptoscreener
+    cd CryptoScreenerApp
     ```
 
 3. **Install dependencies**:
@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 
 4. **Start the development server**:
     ```sh
-    npm start
+    npm run dev
     ```
 
 5. Open your browser and go to `http://localhost:3000` to view the app.
